@@ -38,7 +38,8 @@
     "build": "webpack -p",
     "build-dev": "webpack -d",
     "serve": "webpack-dev-server --content-base assets/ --inline",
-    "dev": "npm run serve"
+    "dev": "npm run serve",
+    "watch-css" : "node-sass src/style.scss dest/style.css --watch"
   },
   "author": "",
   "license": "ISC"
